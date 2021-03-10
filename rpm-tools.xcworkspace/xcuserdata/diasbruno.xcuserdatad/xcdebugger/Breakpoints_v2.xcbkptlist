@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FF964611-0C25-4C55-BB28-770C862EDF11"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "257850BB-0F56-429E-BAED-4D41E5826353"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Repositories/Repositories/Models/Repository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Repository"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "257850BB-0F56-429E-BAED-4D41E5826353 - d44883ba6b866e5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Repositories.Repository.name.getter : Swift.String"
+                  moduleName = "Repositories"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///usr/local/src/rpm/Repositories/Repositories/Models/Repository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "257850BB-0F56-429E-BAED-4D41E5826353 - 2b8e0d70a2b95e6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Repositories.Repository.name.setter : Swift.String"
+                  moduleName = "Repositories"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///usr/local/src/rpm/Repositories/Repositories/Models/Repository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "257850BB-0F56-429E-BAED-4D41E5826353 - ce216e899d8d40cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Repositories.Repository.name.modify : Swift.String"
+                  moduleName = "Repositories"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///usr/local/src/rpm/Repositories/Repositories/Models/Repository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "257850BB-0F56-429E-BAED-4D41E5826353 - d83e80b5db8cc86e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Repositories.Repository.name.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Repositories"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///usr/local/src/rpm/Repositories/Repositories/Models/Repository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "257850BB-0F56-429E-BAED-4D41E5826353 - 7dab7faab323c743"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Repositories.Repository.__ivar_initializer"
+                  moduleName = "Repositories"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///usr/local/src/rpm/Repositories/Repositories/Models/Repository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1DD93A8-F647-4741-8F20-E50326D88617"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Repositories/Repositories/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "readBranches()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

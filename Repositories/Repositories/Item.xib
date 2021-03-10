@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Item" customModule="Repositories" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="Zyi-1M-z7M" id="xz8-iS-Ih7"/>
+                <outlet property="view" destination="c22-O7-iKe" id="MoE-IA-zzn"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Zyi-1M-z7M">
+                    <rect key="frame" x="18" y="69" width="37" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="I2c-VF-lbz">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v7D-Ue-tg3">
+                    <rect key="frame" x="224" y="67" width="23" height="19"/>
+                    <buttonCell key="cell" type="roundRect" bezelStyle="roundedRect" image="NSMenuMixedStateTemplate" imagePosition="only" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="la2-OJ-PvH">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="cellTitle"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onClick:" target="-2" id="SBW-w2-d1H"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="v7D-Ue-tg3" secondAttribute="trailing" constant="20" symbolic="YES" id="biS-Dz-rgN"/>
+                <constraint firstItem="Zyi-1M-z7M" firstAttribute="centerY" secondItem="v7D-Ue-tg3" secondAttribute="centerY" id="grC-hJ-nZ5"/>
+                <constraint firstItem="Zyi-1M-z7M" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="kBC-tp-xIi"/>
+                <constraint firstItem="Zyi-1M-z7M" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="lG1-kw-rcw"/>
+            </constraints>
+            <point key="canvasLocation" x="120" y="135"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSMenuMixedStateTemplate" width="14" height="4"/>
+    </resources>
+</document>
